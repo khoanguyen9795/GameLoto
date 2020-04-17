@@ -24,14 +24,14 @@
            android:layout_marginTop="20dp"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:id="@+id/edittextSomin"
+           android:id="@+id/edittextSobatdau"
            android:textSize="30sp"/>
     <EditText
         android:hint="Nhập số kết thúc"
         android:layout_marginTop="40dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/edittextSoMax"
+        android:id="@+id/edittextSoketthuc"
         android:textSize="30sp"/>
     <Button
         android:text="Random"
