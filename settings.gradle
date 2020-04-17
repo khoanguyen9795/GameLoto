@@ -1,0 +1,2 @@
+rootProject.name='Loto_Random'
+include ':app'

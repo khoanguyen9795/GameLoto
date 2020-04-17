@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game LOTO"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#f20"/>
+       <EditText
+           android:hint="Nhập số bắt đầu"
+           android:layout_marginTop="20dp"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/edittextSomin"
+           android:textSize="30sp"/>
+    <EditText
+        android:hint="Nhập số kết thúc"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittextSoMax"
+        android:textSize="30sp"/>
+    <Button
+        android:text="Random"
+        android:id="@+id/buttonRandom"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="1 - 2 - 3"
+            android:id="@+id/textviewKetqua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </ScrollView>
+
+    </LinearLayout>
+
+
